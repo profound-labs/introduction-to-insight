@@ -1,0 +1,170 @@
+\documentclass[10pt,twoside,final]{memoir}
+
+\usepackage{mylayout}
+
+%% Details of the book
+%% ===================
+
+\title{Introduction to Insight Meditation}
+\subtitle{}
+\author{Ajahn Sucitto}
+\date{}
+\editionInfo{\textit{Third edition}, 10,000 copies, printed in Malaysia -- \the\year}
+% Title comment: ...
+% Publisher name: ...
+% Printer name: ...
+\ISBN{000-0-000000-00-0 FIXME!}
+% Copyright text: ...
+\def\copyrightText{Copyright \copyright\ 1988 AMARAVATI PUBLICATIONS}
+
+%% Load further packages
+%% =====================
+
+\usepackage{lipsum}
+
+%% Hyphenation exceptions and corrections
+%% ======================================
+
+% \hyphenation{}
+
+\begin{document}
+
+\emptysheet
+
+%% Frontmatter
+%% ===========
+
+\frontmatter*
+
+\midsloppy
+
+%% Title page
+%% ----------
+%% subtitle, editor, translator, preface by, introduction by, publisher
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/titlepage.tex}
+
+%% Copyright page
+%% --------------
+%% publisher info, edition info, ISBN, etc.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/copyright-amaravati.tex}
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/acknowledgements.tex}
+
+%% Preface
+%% Introduction
+%% ----------------
+
+\chapterstyle{frontmatter}
+
+%\chapter{Introduction}
+\cleartorecto
+{\centering
+\titleLogo
+\par}
+
+\noindent
+\input{./src-tex/introduction.tex}
+
+%% Main matter
+%% ===========
+
+\mainmatter*
+
+% \book*{\thetitle}
+
+\setcounter{chapter}{0}
+
+\chapterstyle{mainmatter}
+
+\Section{Sustaining Attention}
+
+\subsection{Sitting}
+\input{./src-tex/sitting.tex}
+
+\newpage
+
+\subsection{Walking And Standing}
+\input{./src-tex/walking-and-standing.tex}
+
+\newpage
+
+\subsection{Lying Down}
+\input{./src-tex/lying-down.tex}
+
+\newpage
+
+\subsection{Cultivating the Heart}
+\input{./src-tex/cultivating-the-heart.tex}
+
+\newpage
+
+\Section{Reflection}
+
+\subsection{Choiceless Awareness}
+\input{./src-tex/choiceless-awareness.tex}
+
+\newpage
+
+\subsection{Contemplating Your Practice}
+\input{./src-tex/contemplating-your-practice.tex}
+
+\newpage
+
+\subsection{Living Insightfully}
+\input{./src-tex/living-insightfully.tex}
+
+\newpage
+
+\Section{Further Suggestions}
+
+\subsection{Personal Conduct}
+\input{./src-tex/personal-conduct.tex}
+
+\newpage
+
+\subsection{Company and Routine}
+\input{./src-tex/company-and-routine.tex}
+
+\newpage
+
+\subsection{Notes on Posture}
+\input{./src-tex/notes-on-posture.tex}
+
+\newpage
+
+\subsection{Conclusion}
+\input{./src-tex/conclusion.tex}
+
+%% Backmatter
+%% ==========
+%% Appendices, Glossary, Notes, Index...
+
+\backmatter
+
+\cleartorecto
+{\centering
+\subSectionFont
+Suggested meditation postures
+\par}
+
+TODO: pictures
+%\input{./src-tex/postures.tex}
+
+%% Copyright details
+%% -----------------
+
+\cleartorecto
+%\thispagestyle{plain}
+\input{./src-tex/copyright-details-amaravati.tex}
+
+\emptysheet
+
+\end{document}
