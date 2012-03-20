@@ -176,23 +176,45 @@ vcentering,
 %% =========
 %% Penalties
 %% =========
+%%
+%% default values (using memoir, without \midsloppy):
+%% \pretolerance 100
+%% \tolerance 200
+%% \hyphenpenalty 50
+%% \exhyphenpenalty 50
+%% \doublehyphendemerits 10000
+%% \finalhyphendemerits 5000
+%% \brokenpenalty 100
+%% \clubpenalty 1000
+%% \widowpenalty 1000
+%% \hbadness 1000
+%% \emergencystretch 0.0pt
+%% \hfuzz 0.1pt
+%% \vfuzz 0.1pt
+%% \parfillskip 0.0pt plus 1.0fil
+%%
+%% After \midsloppy:
+%% \tolerance 5000
+%% \hbadness 4000
+%% \emergencystretch 1.5em
+%% \hfuzz .1\p@
+%% \vfuzz\hfuzz
+
+% memoir can use more allowing penalties
+\midsloppy
 
 \usepackage[defaultlines=2,all]{nowidow}
 
-% \parfillskip 0pt plus 0.8\textwidth
+% manually adjust the penalties:
 
-% \clubpenalty=9996
-% \tolerance=1414
-% \widowpenalty=8500
-% \brokenpenalty=6000
+% Make hyphenation less frequent
+\lefthyphenmin=3
+\righthyphenmin=3
 
-% \tolerance 1414
-% \hbadness 1414
-% \emergencystretch 1.5em
-% \hfuzz 0.3pt
-% \vfuzz \hfuzz
-% \widowpenalty=10000
-% \finalhyphendemerits=4000
+\hyphenpenalty=600
+\exhyphenpenalty=50
+\doublehyphendemerits=900
+\brokenpenalty=990
 
 %% =============
 %% soul settings

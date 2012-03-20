@@ -1,0 +1,67 @@
+\documentclass[11pt,oneside,final]{memoir}
+
+\makeatletter
+
+\usepackage{soul}
+\usepackage[cmyk]{xcolor}
+
+\usepackage{graphicx}
+\graphicspath{{./src-images/}}
+\usepackage{tikz}
+
+\usepackage{geometry}
+\geometry{
+paperwidth=120mm,
+paperheight=120mm,
+nohead,
+nofoot,
+margin=0pt
+}
+\setstocksize{120mm}{120mm}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures = TeX]{Shaker 2 Light}
+
+\newfontfamily\shakerLight[
+    Ligatures = TeX,
+    ItalicFont = Shaker 2 Light Italic
+]{Shaker 2 Light}
+
+\newcommand{\bookTitleSize}{\@setfontsize\bookTitleSize{20}{0}}
+
+\pagestyle{empty}
+
+\setlength{\parindent}{0pt}
+
+\newcommand\titleLogo{
+\begin{minipage}{50mm}
+\shakerLight\bookTitleSize
+\centering
+\resizebox{\linewidth}{!}{INTRODUCTION}\\[0.2em]
+\resizebox{\linewidth}{!}{TO \textcolor[gray]{0.4}{INSIGHT}}\\[0.2em]
+\resizebox{\linewidth}{!}{MEDITATION}
+\end{minipage}
+}
+
+\newsavebox{\quotepagebox}
+\newenvironment{quotepage}[1]
+  {\begin{lrbox}{\quotepagebox}\begin{minipage}{#1}
+   \setlength{\parskip}{0.6\baselineskip}
+   \setlength{\parindent}{0pt}}
+  {\end{minipage}\end{lrbox}%
+   \clearpage\thispagestyle{empty}
+   \begin{tikzpicture}[remember picture,overlay]  
+   \node at (current page.center) {\usebox{\quotepagebox}};
+   \end{tikzpicture}
+   \clearpage}
+
+\makeatother
+
+\begin{document}
+
+\begin{quotepage}{80mm}
+\centering
+\titleLogo
+\end{quotepage}
+
+\end{document}

@@ -18,6 +18,20 @@ again:
 view:
 	evince $(FILE).pdf &
 
+cover-front:
+	$(LATEX) $(LATEX_OPTS) cover_front.tex
+
+cover-back:
+	$(LATEX) $(LATEX_OPTS) cover_back.tex
+
+cover:
+	$(LATEX) $(LATEX_OPTS) cover.tex
+
+cover-all:
+	make cover-front
+	make cover-back
+	make cover
+
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}
 
