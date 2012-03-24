@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  20 MAR 2012 13:22
+This is LuaTeX, Version beta-0.70.1-2011061416 (rev 4277)  (format=lualatex 2012.1.6)  24 MAR 2012 09:00
  restricted \write18 enabled.
 **cover_back.tex
 (./cover_back.tex
@@ -686,35 +686,665 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layoutvoffset=\dimen199
 \Gm@dimlist=\toks33
 )
-\quotepagebox=\box38
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2011/09/18 v2.2a Advanced font selection for XeLaTeX/LuaLaTeX
+
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/expl3.sty
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3names.sty
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
+Package: l3bootstrap 2011/11/25 v3006 L3 Experimental bootstrap code
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/generic/oberdiek/luatex.sty
+Package: luatex 2010/03/09 v0.4 LuaTeX basic definition package (HO)
+\LuT@AllocAttribute=\count277
+\LuT@AllocCatcodeTable=\count278
+\CatcodeTableStack=\count279
+\CatcodeTableIniTeX=\catcodetable1
+\CatcodeTableString=\catcodetable3
+\CatcodeTableOther=\catcodetable5
+\CatcodeTableLaTeX=\catcodetable7
+))
+Package: l3names 2011/11/11 v2944 L3 Experimental namespace for primitives
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count280
+\calc@Bcount=\count281
+\calc@Adimen=\dimen256
+\calc@Bdimen=\dimen257
+\calc@Askip=\skip256
+\calc@Bskip=\skip257
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count282
+\calc@Cskip=\skip258
+)
+Package: expl3 2011/12/29 v3109 L3 Experimental code bundle wrapper
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3basics.sty
+Package: l3basics 2011/12/23 v3090 L3 Experimental basic definitions
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3expan.sty
+Package: l3expan 2011/12/22 v3086 L3 Experimental argument expansion
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3tl.sty
+Package: l3tl 2011/12/25 v3091 L3 Experimental token lists
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3seq.sty
+Package: l3seq 2011/12/22 v3085 L3 Experimental sequences and stacks
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3int.sty
+Package: l3int 2011/12/22 v3086 L3 Experimental integers
+\c_max_int=\count283
+\l_tmpa_int=\count284
+\l_tmpb_int=\count285
+\l_tmpc_int=\count286
+\g_tmpa_int=\count287
+\g_tmpb_int=\count288
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3quark.sty
+Package: l3quark 2011/12/22 v3086 L3 Experimental quarks
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3prg.sty
+Package: l3prg 2011/12/22 v3086 L3 Experimental control structures
+\g_prg_map_int=\count289
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3clist.sty
+Package: l3clist 2011/12/22 v3086 L3 Experimental comma separated lists
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3token.sty
+Package: l3token 2011/12/27 v3099 L3 Experimental token manipulation
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3prop.sty
+Package: l3prop 2011/12/22 v3086 L3 Experimental property lists
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3msg.sty
+Package: l3msg 2011/12/22 v3086 L3 Experimental messages
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3io.sty
+Package: l3io 2011/12/27 v3096 L3 Experimental input-output operations
+\l_iow_stream_int=\count290
+\l_iow_line_length_int=\count291
+\l_iow_target_length_int=\count292
+\l_iow_current_line_int=\count293
+\l_iow_current_word_int=\count294
+\l_iow_current_indentation_int=\count295
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3file.sty
+Package: l3file 2011/12/26 v3095 L3 Experimental file operations
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3skip.sty
+Package: l3skip 2011/12/22 v3086 L3 Experimental dimensions and skips
+\l_tmpa_dim=\dimen258
+\l_tmpb_dim=\dimen259
+\l_tmpc_dim=\dimen260
+\g_tmpa_dim=\dimen261
+\g_tmpb_dim=\dimen262
+\l_tmpa_skip=\skip259
+\l_tmpb_skip=\skip260
+\l_tmpc_skip=\skip261
+\g_tmpa_skip=\skip262
+\g_tmpb_skip=\skip263
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3keys.sty
+Package: l3keys 2011/12/22 v3086 L3 Experimental key-value interfaces
+\g_keyval_level_int=\count296
+\l_keys_choice_int=\count297
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3fp.sty
+Package: l3fp 2011/12/22 v3086 L3 Experimental floating-point operations
+\c_one_hundred_million=\count298
+\c_five_hundred_million=\count299
+\c_one_thousand_million=\count300
+\c_fp_pi_by_four_decimal_int=\count301
+\c_fp_pi_by_four_extended_int=\count302
+\c_fp_pi_decimal_int=\count303
+\c_fp_pi_extended_int=\count304
+\c_fp_two_pi_decimal_int=\count305
+\c_fp_two_pi_extended_int=\count306
+\l_fp_count_int=\count307
+\l_fp_div_offset_int=\count308
+\l_fp_exp_integer_int=\count309
+\l_fp_exp_decimal_int=\count310
+\l_fp_exp_extended_int=\count311
+\l_fp_exp_exponent_int=\count312
+\l_fp_input_a_sign_int=\count313
+\l_fp_input_a_integer_int=\count314
+\l_fp_input_a_decimal_int=\count315
+\l_fp_input_a_exponent_int=\count316
+\l_fp_input_b_sign_int=\count317
+\l_fp_input_b_integer_int=\count318
+\l_fp_input_b_decimal_int=\count319
+\l_fp_input_b_exponent_int=\count320
+\l_fp_input_a_extended_int=\count321
+\l_fp_input_b_extended_int=\count322
+\l_fp_mul_a_i_int=\count323
+\l_fp_mul_a_ii_int=\count324
+\l_fp_mul_a_iii_int=\count325
+\l_fp_mul_a_iv_int=\count326
+\l_fp_mul_a_v_int=\count327
+\l_fp_mul_a_vi_int=\count328
+\l_fp_mul_b_i_int=\count329
+\l_fp_mul_b_ii_int=\count330
+\l_fp_mul_b_iii_int=\count331
+\l_fp_mul_b_iv_int=\count332
+\l_fp_mul_b_v_int=\count333
+\l_fp_mul_b_vi_int=\count334
+\l_fp_mul_output_int=\count335
+\l_fp_output_sign_int=\count336
+\l_fp_output_integer_int=\count337
+\l_fp_output_decimal_int=\count338
+\l_fp_output_exponent_int=\count339
+\l_fp_output_extended_int=\count340
+\l_fp_round_position_int=\count341
+\l_fp_round_target_int=\count342
+\l_fp_split_sign_int=\count343
+\l_fp_tmp_int=\count344
+\l_fp_trig_octant_int=\count345
+\l_fp_trig_sign_int=\count346
+\l_fp_trig_decimal_int=\count347
+\l_fp_trig_extended_int=\count348
+\l_fp_tmp_dim=\dimen263
+\l_fp_tmp_skip=\skip264
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3box.sty
+Package: l3box 2011/12/22 v3086 L3 Experimental boxes
+\l_tmpb_box=\box256
+\l_box_top_dim=\dimen264
+\l_box_bottom_dim=\dimen265
+\l_box_left_dim=\dimen266
+\l_box_right_dim=\dimen267
+\l_box_top_new_dim=\dimen268
+\l_box_bottom_new_dim=\dimen269
+\l_box_left_new_dim=\dimen270
+\l_box_right_new_dim=\dimen271
+\l_box_tmp_box=\box257
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3coffins.sty
+Package: l3coffins 2011/12/22 v3086 L3 Experimental coffin code layer
+\l_coffin_tmp_box=\box258
+\l_coffin_tmp_dim=\dimen272
+\l_coffin_offset_x_dim=\dimen273
+\l_coffin_offset_y_dim=\dimen274
+\l_coffin_x_dim=\dimen275
+\l_coffin_y_dim=\dimen276
+\l_coffin_x_prime_dim=\dimen277
+\l_coffin_y_prime_dim=\dimen278
+\l_coffin_Depth_dim=\dimen279
+\l_coffin_Height_dim=\dimen280
+\l_coffin_TotalHeight_dim=\dimen281
+\l_coffin_Width_dim=\dimen282
+\c_empty_coffin=\box259
+\l_coffin_aligned_coffin=\box260
+\l_coffin_aligned_internal_coffin=\box261
+\l_coffin_bounding_shift_dim=\dimen283
+\l_coffin_left_corner_dim=\dimen284
+\l_coffin_right_corner_dim=\dimen285
+\l_coffin_bottom_corner_dim=\dimen286
+\l_coffin_top_corner_dim=\dimen287
+\l_coffin_scaled_total_height_dim=\dimen288
+\l_coffin_scaled_width_dim=\dimen289
+\l_coffin_display_coffin=\box262
+\l_coffin_display_coord_coffin=\box263
+\l_coffin_display_pole_coffin=\box264
+\l_coffin_display_offset_dim=\dimen290
+\l_coffin_display_x_dim=\dimen291
+\l_coffin_display_y_dim=\dimen292
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3color.sty
+Package: l3color 2011/09/07 v2776 L3 Experimental colour support
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3kernel/l3luatex.sty
+Package: l3luatex 2011/12/22 v3086 L3 Experimental LuaTeX-specific functions
+\g_cctab_allocate_int=\count349
+\g_cctab_stack_int=\count350
+\c_code_cctab=\catcodetable9
+))
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2011/12/29 v3109 L3 Experimental document command parser
+\l_xparse_m_args_int=\count351
+\l_xparse_mandatory_args_int=\count352
+\l_xparse_processor_int=\count353
+\l_xparse_total_args_int=\count354
+\l_xparse_v_nesting_int=\count355
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotfload/luaotfload.sty
+Package: luaotfload 2011/04/21 v1.25 OpenType layout system
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2010/10/06 v0.3 Module utilities for LuaTeX
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-compat.s
+ty
+Package: luatexbase-compat 2010/10/10 v0.3 Compatibility tools for LuaTeX
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-loader.s
+ty
+Package: luatexbase-loader 2010/10/10 v0.3 Lua module loader for LuaTeX
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase.loader.l
+ua))
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-regs.sty
+Package: luatexbase-regs 2010/10/10 v0.3 Registers allocation for LuaTeX
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-attr.sty
+Package: luatexbase-attr 2011/05/21 v0.31 Attributes allocation for LuaTeX
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/attr.lua))
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-cctb.sty
+Package: luatexbase-cctb 2010/10/10 v0.3 Catcodetable allocation for LuaTeX
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/cctb.lua)
+\lltxb@catcodetable@alloc=\count356
+\CatcodeTableIniTeX=\luatexcatcodetable1
+\CatcodeTableString=\luatexcatcodetable3
+\CatcodeTableOther=\luatexcatcodetable5
+\CatcodeTableLaTeX=\luatexcatcodetable7
+\CatcodeTableLaTeXAtLetter=\luatexcatcodetable9
+\CatcodeTableExpl=\luatexcatcodetable11
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-mcb.sty
+Package: luatexbase-mcb 2010/10/10 v0.3 Callback management for LuaTeX
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/luatexbase-modutils
+.sty
+Package: luatexbase-modutils 2010/10/10 v0.3 Module utilities for LuaTeX
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/modutils.lua))
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luatexbase/mcb.lua)
+Lua module: luatexbase-mcb 2010/05/12 0.2 register several functions in a callb
+ack
+))
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs.lua)
+Lua module: lualibs 2011/01/20 0.96 Lua additional functions.
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-string.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-lpeg.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-boolean.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-number.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-math.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-table.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-aux.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-io.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-os.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-file.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-md5.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-dir.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-unicode.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-utils.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-dimen.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-url.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/lualibs/lualibs-set.lua)
+(/home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotfload/luaotfload.lua)
+Lua module: luaotfload 2011/04/21 1.25 OpenType layout system.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-luat-dum.lua.(using cache: /home/hotaru/.texlive2011/texmf-var/luatex
+-cache/generic)
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-luat-ovr.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-data-con.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-ini.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-node-dum.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-node-inj.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-tfm.lua.
+luatexbase.attributes["otfl@state"] = 1
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-cid.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-ott.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-map.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-otf.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-otd.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-oti.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-otb.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-otn.lua.
+luatexbase.attributes["otfl@markbase"] = 2
+luatexbase.attributes["otfl@markmark"] = 3
+luatexbase.attributes["otfl@markdone"] = 4
+luatexbase.attributes["otfl@cursbase"] = 5
+luatexbase.attributes["otfl@curscurs"] = 6
+luatexbase.attributes["otfl@cursdone"] = 7
+luatexbase.attributes["otfl@kernpair"] = 8
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-ota.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-otc.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-def.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-xtx.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-dum.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-nms.lua.
+luaotfload: loading file /home/hotaru/texlive/2011/texmf-dist/tex/luatex/luaotf
+load/otfl-font-clr.lua.
+Module luatexbase-mcb info: creating 'luaotfload.patch_font' type 4
+Module luatexbase-mcb info: inserting 'luaotfload.pre_linebreak_filter'
+(luatexbase-mcb)            at position 1 in 'pre_linebreak_filter'
+Module luatexbase-mcb info: inserting 'luaotfload.hpack_filter'
+(luatexbase-mcb)            at position 1 in 'hpack_filter'
+Module luatexbase-mcb info: resetting callback 'define_font'
+Module luatexbase-mcb info: inserting 'luaotfload.define_font'
+(luatexbase-mcb)            at position 1 in 'define_font'
+Module luatexbase-mcb info: inserting 'luaotfload.find_vf_file'
+(luatexbase-mcb)            at position 1 in 'find_vf_file'
+Module luatexbase-mcb info: inserting 'unicodemath.set_sscale_diments'
+(luatexbase-mcb)            at position 1 in 'luaotfload.patch_font'
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec.lua)
+Lua module: fontspec 2009/12/04 2 Advanced font selection for LuaLaTeX.
+
+Module luatexbase-mcb info: inserting 'fontspec.set_capheight'
+(luatexbase-mcb)            at position 2 in 'luaotfload.patch_font'
+\l_fontspec_script_int=\count357
+\l_fontspec_language_int=\count358
+\l_fontspec_strnum_int=\count359
+\l_fontspec_tmpa_dim=\dimen293
+\l_fontspec_tmpb_dim=\dimen294
+\l_fontspec_tmpc_dim=\dimen295
+Variant \tl_gset:cV already defined; not changing it on line 66
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec-patches.sty
+Package: fontspec-patches 2011/09/18 v2.2a Advanced font selection for XeLaTeX/
+LuaLaTeX
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
+LaTeX Info: Redefining \em on input line 420.
+LaTeX Info: Redefining \textsubscript on input line 424.
+)
+LaTeX Info: Redefining \em on input line 22.
+LaTeX Info: Redefining \emph on input line 29.
+LaTeX Info: Redefining \- on input line 32.
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \liningnums with arg. spec. 'm' on line 111.
+.................................................
+)
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2011/09/18 v2.2a Advanced font selection for XeLaTeX/L
+uaLaTeX
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/euenc/eu2enc.def
+File: eu2enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
+)
+LaTeX Font Info:    Try loading font information for EU2+lmr on input line 100.
+
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/euenc/eu2lmr.fd
+File: eu2lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
+emp-lmroman10-regular.lua))
+(/home/hotaru/texlive/2011/texmf-dist/tex/xelatex/xunicode/xunicode.sty
+File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many 
+other characters in Unicode lower plane
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
+emp-lmromanslant10-regular.lua)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
+emp-lmroman10-italic.lua)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
+emp-lmroman10-bold.lua)
+LaTeX Font Info:    Try loading font information for EU2+lmss on input line 357
+.
+
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/euenc/eu2lmss.fd
+File: eu2lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)(load: /home/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/t
+emp-lmsans10-regular.lua))
+\tipaTiiicode=\count360
+\tipasavetokens=\toks34
+\tipachecktokens=\toks35
+)
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \fontspec with arg. spec. 'O{}m' on line 42.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setmainfont with arg. spec. 'O{}m' on line 46.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setsansfont with arg. spec. 'O{}m' on line 50.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setmonofont with arg. spec. 'O{}m' on line 54.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setmathrm with arg. spec. 'O{}m' on line 62.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setboldmathrm with arg. spec. 'O{}m' on line 65.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setmathsf with arg. spec. 'O{}m' on line 68.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \setmathtt with arg. spec. 'O{}m' on line 71.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newfontfamily with arg. spec. 'mO{}m' on line 87.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newfontface with arg. spec. 'mO{}m' on line 90.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \defaultfontfeatures with arg. spec. 'm' on line
+. 94.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \addfontfeatures with arg. spec. 'm' on line 110.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newfontfeature with arg. spec. 'mm' on line 121.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newAATfeature with arg. spec. 'mmmm' on line 128.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newICUfeature with arg. spec. 'mmm' on line 135.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \aliasfontfeature with arg. spec. 'mm' on line
+. 162.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \aliasfontfeatureoption with arg. spec. 'mmm' on
+. line 167.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newfontscript with arg. spec. 'mm' on line 172.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \newfontlanguage with arg. spec. 'mm' on line 195.
+.................................................
+.................................................
+. xparse info: "define-command"
+. 
+. Defining document command \DeclareFontsExtensions with arg. spec. 'm' on
+. line 214.
+.................................................
+Variant \prop_gput:cnV already defined; not changing it on line 489
+Variant \prop_gput:cnx already defined; not changing it on line 490
+Variant \keys_set:nx already defined; not changing it on line 897
+\c@fontspec_tmp_int=\count361
+LaTeX Info: Redefining \itshape on input line 1809.
+LaTeX Info: Redefining \slshape on input line 1813.
+LaTeX Info: Redefining \scshape on input line 1817.
+LaTeX Info: Redefining \upshape on input line 1821.
+ (/home/hotaru/texlive/2011/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
+luaotfload | Font names database loaded: /home/hotaru/.texlive2011/texmf-var/lu
+atex-cache/generic/names/otfl-names.lua
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf(load: /home/hotaru
+/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/temp-shaker2l.lua)
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+fontspec: script 'latn' exists in font 'Shaker2-Light'
+fontspec: script 'latn' exists in font 'Shaker2-Light'
+\g_fontspec_family_Shaker 2 Light_int=\count362
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'Shaker2-Light'
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'Shaker2-Light'
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+luaotfload | load font: font family='shaker2light', subfamily='bold' found: /ho
+me/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Shaker2Light/B (it probably doesn't exist).
+.................................................
+luaotfload | load font: font family='shaker2lightitalic', subfamily='regular' f
+ound: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2LI.otf(load: /home
+/hotaru/.texlive2011/texmf-var/luatex-cache/generic/fonts/otf/temp-shaker2li.lu
+a)
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'Shaker2-LightItalic'
+fontspec: feature '+smcp' for language 'DFLT' and script 'latn' exists in font 
+'Shaker2-LightItalic'
+luaotfload | load font: font family='shaker2lightitalic', subfamily='regular' f
+ound: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2LI.otf
+luaotfload | load font: font family='shaker2lightitalic', subfamily='bold' foun
+d: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2LI.otf
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font Shaker2LightItalic/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Shaker2Light(0)' created for font 'Shaker 2 Light' with options
+. [ Ligatures = TeX, ItalicFont = Shaker 2 Light Italic ].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"name:Shaker2Light:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. <->"name:Shaker2Light:mode=node;script=latn;language=DFLT;+tlig;+trep;+smcp;"
+
+. 
+. * 'italic' with NFSS spec.:
+. 
+. <->"name:Shaker2LightItalic:mode=node;script=latn;language=DFLT;+tlig;+trep;"
+
+. 
+. * 'italic small caps' with NFSS spec.:
+. 
+. <->"name:Shaker2LightItalic:mode=node;script=latn;language=DFLT;+tlig;+trep;+
+smcp;"
+.................................................
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+\quotepagebox=\box265
 
 (./cover_back.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
-LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 43.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 43.
 
+(/home/hotaru/texlive/2011/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 43.
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
 (/home/hotaru/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count161
-\scratchdimen=\dimen200
-\scratchbox=\box39
-\nofMPsegments=\count162
-\nofMParguments=\count163
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count164
-\MPscratchDim=\dimen201
-\MPnumerator=\count165
-\makeMPintoPDFobject=\count166
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count363
+\scratchdimen=\dimen296
+\scratchbox=\box266
+\nofMPsegments=\count364
+\nofMParguments=\count365
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen297
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
+\everyMPtoPDFconversion=\toks37
 ) (/home/hotaru/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -777,36 +1407,121 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<./src-images/padma.png, id=4, 185.0112pt x 171.7617pt>
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
+LaTeX Font Info:    Redeclaring math accent \check on input line 43.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
+(Font)              `operators' in the math version `normal' on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> EU2/Shaker2Light(0)/m/n on input line 4
+3.
+LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
+(Font)              `operators' in the math version `bold' on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/m/n on input line 
+43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
+input line 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/m/n on 
+input line 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> EU2/Shaker2Light(0)/m/it on input line
+ 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> EU2/Shaker2Light(0)/bx/n on input line
+ 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> EU2/lmss/m/n on input line 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/m/n on input line 43.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
+ input line 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  EU2/Shaker2Light(0)/m/n --> EU2/Shaker2Light(0)/bx/n on
+ input line 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> EU2/Shaker2Light(0)/bx/it on input li
+ne 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> EU2/lmss/bx/n on input line 43.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> EU2/lmtt/bx/n on input line 43.
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='shaker2lightitalic', subfamily='regular' f
+ound: /home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2LI.otf <./src-imag
+es/padma.png, id=4, 185.0112pt x 171.7617pt>
 File: ./src-images/padma.png Graphic file (type png)
 
 <use ./src-images/padma.png>
-Package pdftex.def Info: ./src-images/padma.png used on input line 43.
+Package pdftex.def Info: ./src-images/padma.png used on input line 52.
 (pdftex.def)             Requested size: 52.0992pt x 48.36967pt.
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
+luaotfload | load font: auto-selecting default features for script: dflt (was l
+atn)
+luaotfload | load font: font family='shaker2light', subfamily='regular' found: 
+/home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2L.otf
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 44.
+(Font)              <10.95> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 44.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 44.
+(Font)              <6> on input line 53.
  [1
 
-
- <./src-images/padma.png>] (./cover_back.aux) )
+{/home/hotaru/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./src
+-images/padma.png>] (./cover_back.aux) )
 
 Here is how much of LuaTeX's memory you used:
- 13906 strings out of 494987
- 100000,383344 words of node,token memory allocated
- 643 words of node memory still in use:
-   2 hlist, 1 vlist, 1 rule, 2 glue, 133 glue_spec, 3 write nodes
-   avail lists: 2:16,3:35,4:96,6:16,7:4,9:55
- 16970 multiletter control sequences out of 65536+200000
- 28 fonts using 794587 bytes
- 61i,10n,55p,399b,460s stack positions out of 5000i,500n,10000p,200000b,50000s
-Output written on cover_back.pdf (1 page, 69430 bytes).
+ 26868 strings out of 494987
+ 100000,662416 words of node,token memory allocated
+ 674 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 135 glue_spec, 4 attribute_li
+st, 2 write nodes
+   avail lists: 2:217,3:37,4:108,5:1,6:37,7:5,9:48,10:5
+ 29582 multiletter control sequences out of 65536+200000
+ 39 fonts using 1907491 bytes
+ 61i,10n,55p,399b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+</home/hotaru/.fonts/licenced-for-harnham/Shaker/Shaker2LI.otf>
+Output written on cover_back.pdf (1 page, 71838 bytes).
 
-PDF statistics: 12 PDF objects out of 1000 (max. 8388607)
- 7 compressed objects within 1 object stream
+PDF statistics: 19 PDF objects out of 1000 (max. 8388607)
+ 11 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

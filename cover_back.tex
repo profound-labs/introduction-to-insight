@@ -18,17 +18,21 @@ margin=0pt
 }
 \setstocksize{120mm}{120mm}
 
+\usepackage{fontspec}
+\setmainfont[
+    Ligatures = TeX,
+    ItalicFont = Shaker 2 Light Italic
+]{Shaker 2 Light}
+
 \newsavebox{\quotepagebox}
 \newenvironment{quotepage}[1]
   {\begin{lrbox}{\quotepagebox}\begin{minipage}{#1}
    \setlength{\parskip}{0.6\baselineskip}
    \setlength{\parindent}{0pt}}
   {\end{minipage}\end{lrbox}%
-   \clearpage\thispagestyle{empty}
-   \begin{tikzpicture}[remember picture,overlay]  
+   \begin{tikzpicture}[remember picture,overlay]
    \node at (current page.center) {\usebox{\quotepagebox}};
-   \end{tikzpicture}
-   \clearpage}
+   \end{tikzpicture}}
 
 \pagestyle{empty}
 
@@ -37,6 +41,11 @@ margin=0pt
 \makeatother
 
 \begin{document}
+
+\vspace*{0.8\paperheight}
+{\centering
+\textcolor[gray]{0.2}{\textit{for free distribution}}
+\par}
 
 \begin{quotepage}{30mm}
 \centering
