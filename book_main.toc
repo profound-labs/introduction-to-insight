@@ -1,7 +1,0 @@
-\select@language {british}
-\contentsline {chapter}{Introduction}{15}{chapter*.1}
-\contentsline {subsection}{Sustaining Attention}{20}{section*.4}
-\contentsline {subsubsection}{Sitting}{20}{section*.5}
-\contentsline {subsubsection}{Walking And Standing}{24}{section*.6}
-\contentsline {chapter}{Glossary}{29}{chapter*.7}
-\contentsline {chapter}{Index}{31}{chapter*.8}

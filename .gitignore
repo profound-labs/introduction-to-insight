@@ -1,0 +1,8 @@
+*.swp
+*.log
+*.aux
+*.toc
+book_main.pdf
+cover_back.pdf
+cover_front.pdf
+cover.pdf
